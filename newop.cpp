@@ -3,7 +3,7 @@ Description      :  Class String With Character Pointer Using New & Delete,
                  :  Overload The Following Operators As Upper Case To Lower Case
 Function Date    :  21 Nov 2020
 Function Author  :  Prasad Dangare
-Input            :  Integer
+Input            :  String
 */
 
 #include<iostream>
