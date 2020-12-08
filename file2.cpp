@@ -15,16 +15,16 @@ int main()
     ofstream fout;
     fout.open("country");
 
-    fout << "United States Of America, \n";
-    fout << "United Kingdom, \n";
-    fout << "United Korea \n";
+    fout << "United States Of America \n";
+    fout << "United Kingdom \n";
+    fout << "South Korea \n";
 
     fout.close();
 
     fout.open("capital");
 
-    fout  << "Washington, \n";
-    fout  << "London, \n";
+    fout  << "Washington \n";
+    fout  << "London \n";
     fout  << "Seoul \n";
 
     fout.close();
@@ -36,7 +36,7 @@ int main()
     
     fin.open("country");
 
-    cout << "\n --- Constents Of Country File ---\n\n";
+    cout << "Constents Of Country File \n";
 
     while (fin)
     {
@@ -48,7 +48,7 @@ int main()
     
     fin.open("capital");
     
-    cout << "\n\n --- Contents Of Capital File ---\n\n";
+    cout << "\n Contents Of Capital File \n";
 
     while (fin)
     {
